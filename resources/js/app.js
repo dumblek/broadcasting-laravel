@@ -21,6 +21,8 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('chat-box-component', require('./components/chat/ChatBoxComponent.vue').default);
+Vue.component('chat-message-component', require('./components/chat/ChatMessageComponent.vue').default);
+Vue.component('chat-form-component', require('./components/chat/ChatFormComponent.vue').default);
 Vue.component('chat-user-list-component', require('./components/chat/ChatUserListComponent.vue').default);
 
 /**
